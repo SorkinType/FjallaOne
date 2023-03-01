@@ -8,3 +8,15 @@
 #
 # Names should be added to this file as:
 # Name <email address>
+
+If you make modifications be sure to add your name (N), email (E), web-address
+(if you have one) (W) and description (D). This list is in alphabetical order.
+
+N: Irina Smirnova
+E: irina.v.sm@gmail.com
+D: Designer
+
+N: Eben Sorkin
+E: sorkineben@gmail.com
+W: www.sorkintype.com
+D: Mastering & Design
