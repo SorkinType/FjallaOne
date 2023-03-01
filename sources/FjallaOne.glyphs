@@ -59953,7 +59953,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2019 The Familyname Project Authors (git url)";
+value = "Copyright 2023 The Fjalla Project Authors (git url)";
 }
 );
 },
