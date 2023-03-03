@@ -48,7 +48,7 @@ value = 1;
 }
 );
 date = "2022-10-06 13:40:41 +0000";
-familyName = FjallaOne;
+familyName = "Fjalla One";
 featurePrefixes = (
 {
 automatic = 1;
