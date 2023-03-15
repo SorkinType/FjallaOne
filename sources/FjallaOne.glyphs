@@ -164,6 +164,14 @@ lookup ccmp_latn_2;
 tag = ccmp;
 },
 {
+code = "lookup ccmp_SoftDotted {
+	sub [idotbelow iogonek]' @CombiningTopAccents by [idotless_dotbelowcomb idotless_ogonekcomb];
+	sub [idotbelow iogonek]' @CombiningNonTopAccents @CombiningTopAccents by [idotless_dotbelowcomb idotless_ogonekcomb];
+} ccmp_SoftDotted;
+";
+tag = ccmp;
+},
+{
 automatic = 1;
 code = "lookup locl_noScript_0 {
 	language MAH;
@@ -35042,6 +35050,48 @@ width = 511;
 }
 );
 unicode = 305;
+},
+{
+glyphname = idotless_dotbelowcomb;
+kernLeft = KO_i;
+kernRight = KO_i;
+lastChange = "2023-03-15 20:24:00 +0000";
+layers = (
+{
+layerId = "043639A7-E62C-4A4F-99F5-E7AE759848D8";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (256,0);
+ref = dotbelowcomb;
+}
+);
+width = 511;
+}
+);
+},
+{
+glyphname = idotless_ogonekcomb;
+kernLeft = KO_i;
+kernRight = KO_i;
+lastChange = "2023-03-15 20:24:09 +0000";
+layers = (
+{
+layerId = "043639A7-E62C-4A4F-99F5-E7AE759848D8";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (299,-1);
+ref = ogonekcomb;
+}
+);
+width = 511;
+}
+);
 },
 {
 color = 10;
